@@ -1,6 +1,6 @@
-# vae_understanding
+# ae_vae_understanding
 
-Work with Regis Djaha on understanding VAEs and its multiple extensions
+Work by Regis Djaha and Iñigo Urtega on understanding AEs and VAEs.
 
 [Regis Djaha ][Regis], [Iñigo Urteaga][Iñigo ]
 
