@@ -7,7 +7,7 @@ Work by Regis Djaha and Iñigo Urtega on understanding AEs and VAEs.
 [Regis]: https://github.com/RegisKonan
 [Iñigo]: https://iurteaga.github.io/
 
-This repository contains all materials that accompany our [paper].
+This work lead to this Master Thesis [project](https://github.com/RegisKonan/ae_vae_understanding/blob/f2b9f600191054467248e2c0f24917375a94ef05/reports/Regis_Djaha_AMMI_project_2023.pdf).
 
 [paper]: ...
 
