@@ -38,12 +38,12 @@ The next experiment focuses on examining the impact of beta-VAE (see [beta-VAE_e
 
 # Main 
 
-The [main](https://github.com/iurteaga/vae_understanding/tree/2f70c5c2b139bd3907466f49e22d3a338b00ca92/src/main) contains the [datasets.py](https://github.com/iurteaga/vae_understanding/blob/9a3e60f746286be500a5690ecc6c67a0cf3c198c/src/main/datasets.py) and [function_loss.py](https://github.com/iurteaga/vae_understanding/blob/e2767b2f5173fea05137e4203edc1d20c3e1568c/src/main/loss_function.py). Our datasets include MNIST and fashion MNIST data. We use BCE or MSE metrics as reconstruction losses for the AE model and ELBO for the VAE model. ELBO has two components: the reconstruction loss, which is the BCE or MSE metric, and the KL divergence loss.
+The [main](https://github.com/RegisKonan/ae_vae_understanding/tree/5109887685e8c3e2e0b8385d874d231338b38644/src/main) contains the [datasets.py](https://github.com/RegisKonan/ae_vae_understanding/tree/5109887685e8c3e2e0b8385d874d231338b38644/src/main/datasets.py) and [function_loss.py](https://github.com/RegisKonan/ae_vae_understanding/tree/5109887685e8c3e2e0b8385d874d231338b38644/src/main/loss_function.py). Our datasets include MNIST and fashion MNIST data. We use BCE or MSE metrics as reconstruction losses for the AE model and ELBO for the VAE model. ELBO has two components: the reconstruction loss, which is the BCE or MSE metric, and the KL divergence loss.
 
 
 ## utilities
 
-The [trained_models.py](https://github.com/iurteaga/vae_understanding/blob/8bc9ec6a21b75a0da092fa43aef4e499004ee787/src/utilities/trained_models.py)   contain training functions, evaluation functions, functions to visualize original and reconstructed data, and cross-validation functions for AE and VAE models.
+The [trained_models.py](https://github.com/RegisKonan/ae_vae_understanding/tree/5109887685e8c3e2e0b8385d874d231338b38644/src/utilities/trained_models.py)   contain training functions, evaluation functions, functions to visualize original and reconstructed data, and cross-validation functions for AE and VAE models.
 [plotting.py](https://github.com/iurteaga/vae_understanding/blob/189dbabe0206052718ac946f739175528612cd58/src/utilities/plotting.py) contains the function for plotting BCE, MSE, and L1 Loss metrics.
 
-[latent_space_sample.py](https://github.com/iurteaga/vae_understanding/blob/4574e70b0d715c7bf080ee31b6fde6d27a3b5f63/src/utilities/latent_space_sample.py) contains the function for visualizing latent spaces and generating new data.
+[latent_space_sample.py](https://github.com/RegisKonan/ae_vae_understanding/tree/5109887685e8c3e2e0b8385d874d231338b38644/src/utilities/latent_space_sample.py) contains the function for visualizing latent spaces and generating new data.
