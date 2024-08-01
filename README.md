@@ -158,4 +158,4 @@ If you find any bugs or have any questions about this code, please contact Regis
 Acknowledgments
 --------------------
 
-This project funded by La Caixa Junior Leader.
+We thank La Caixa Junior Leader program’s LCF/BQ/PI22/11910028 award for financial support of this work.
