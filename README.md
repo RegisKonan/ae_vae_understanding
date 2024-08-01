@@ -84,7 +84,7 @@ model_name = [AE, VAE]
 
 ```
 
-To run the experiment scripts, call them from your `vae_understanding` directory:
+To run the experiment scripts, call them from your `ae_vae_understanding` directory:
 
 1. Test1: [script/AE_VAE_experiment_nL.py](./script/AE_VAE_experiment_nL.py).
    
