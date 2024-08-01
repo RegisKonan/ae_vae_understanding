@@ -3,7 +3,7 @@
 This directory contains Regis Djaha's experiments on AutoEncoders and Variational Autoencoders, for different number of layers $L$ and different latent space sizes $D_z$.
 
 
-All experiments are run with the [MNIST, FashioMNIST and FreyFace dataset](https://github.com/iurteaga/vae_understanding/blob/4c8eb68a58483748b52bf3d48b5755702f79069f/src/main/datasets.py), 
+All experiments are run with the [MNIST, FashioMNIST and FreyFace dataset](https://github.com/RegisKonan/ae_vae_understanding/blob/be148a3712598c35b293b91b3a84487c33f84302/src/main/datasets.py), 
 
 ### Fixed the value of Dz and varied L
 
