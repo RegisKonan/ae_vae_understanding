@@ -24,8 +24,8 @@ Directory where our code will be place in.
 
 1. Clone this repository.
    ```sh
-    git clone https://github.com/iurteaga/vae_understanding.git
-    cd vae_understanding
+    git clone https://github.com/RegisKonan/ae_vae_understanding.git
+    cd ae_vae_understanding
    ```
 
 2. Install package virtualenv
@@ -66,10 +66,10 @@ pip install -r requirements.txt
    
 ## Running our experiments
 
-1. Make sure you are in the main `vae_understanding` directory
+1. Make sure you are in the main `ae_vae_understanding` directory
 
 ```
-cd /path-to-vae_understanding
+cd /path-to-ae_vae_understanding
 ```
    
 ### AEs Experiments and VAEs Experiments
