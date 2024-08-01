@@ -44,6 +44,6 @@ The [main](https://github.com/RegisKonan/ae_vae_understanding/tree/5109887685e8c
 ## utilities
 
 The [trained_models.py](https://github.com/RegisKonan/ae_vae_understanding/tree/5109887685e8c3e2e0b8385d874d231338b38644/src/utilities/trained_models.py)   contain training functions, evaluation functions, functions to visualize original and reconstructed data, and cross-validation functions for AE and VAE models.
-[plotting.py](https://github.com/iurteaga/vae_understanding/blob/189dbabe0206052718ac946f739175528612cd58/src/utilities/plotting.py) contains the function for plotting BCE, MSE, and L1 Loss metrics.
+[plotting.py](https://github.com/RegisKonan/ae_vae_understanding/tree/5109887685e8c3e2e0b8385d874d231338b38644/src/utilities/plotting.py) contains the function for plotting BCE, MSE, and L1 Loss metrics.
 
 [latent_space_sample.py](https://github.com/RegisKonan/ae_vae_understanding/tree/5109887685e8c3e2e0b8385d874d231338b38644/src/utilities/latent_space_sample.py) contains the function for visualizing latent spaces and generating new data.
