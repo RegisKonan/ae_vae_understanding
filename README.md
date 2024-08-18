@@ -121,7 +121,7 @@ In this script, we have fixed the value of beta and varied the number of layers 
 ​
  . You don't need to specify a model, as it is already defined in the code.
 
-### Run plot metrics, latent space, original and reconstructions images and number of parameter.
+### Run plot metrics, latent space, original and reconstruction images, and number of parameters.
 
 1. Test1: [script/Run_code_AE_VAE.py](./script/Run_code_AE_VAE.py) 
    
@@ -138,7 +138,7 @@ python script/Run_code_beta_VAE.py -dataset_name FreyFace -model_name VAE  -beta
 
 ## Notebooks
 
-Notebooks are included to show the followed steps.
+Notebooks are included to show the following steps.
 
 1. Start [jupyter](https://jupyter.org).
 ```sh
@@ -153,7 +153,7 @@ Notebooks are included to show the followed steps.
 Questions and Issues
 --------------------
 
-If you find any bugs or have any questions about this code, please contact Regis [rdjaha@bcam.org](rdjaha@bcam.org). 
+If you find any bugs or have any questions about this code, please contact Regis [rdjaha@bcamath.org](rdjaha@bcamath.org). 
 
 Acknowledgments
 --------------------
