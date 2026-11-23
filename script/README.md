@@ -3,15 +3,15 @@
 This directory contains Regis Djaha's experiments on AutoEncoders and Variational Autoencoders, for different number of layers $L$ and different latent space sizes $D_z$.
 
 
-All experiments are run with the [MNIST, FashioMNIST and FreyFace dataset](https://github.com/RegisKonan/ae_vae_understanding/blob/be148a3712598c35b293b91b3a84487c33f84302/src/main/datasets.py), 
-
-### Fixed the value of Dz and varied L
-
-- [AE_VAE_experiment_Dz.py](https://github.com/RegisKonan/ae_vae_understanding/blob/0627aae638a57a1a9a43188e3d7c1fa1a6963978/script/AE_VAE_experiment_Dz.py): this is a script that runs AEs and VAEs with different number of layer encoder-decoder architectures
+All experiments are run with the [MNIST, FashionMNIST and FreyFace dataset](https://github.com/RegisKonan/ae_vae_understanding/blob/be148a3712598c35b293b91b3a84487c33f84302/src/main/datasets.py), 
 
 ### Fixed the value of L and varied Dz
 
-- [AE_VAE_experiment_nL.py](https://github.com/RegisKonan/ae_vae_understanding/blob/0627aae638a57a1a9a43188e3d7c1fa1a6963978/script/AE_VAE_experiment_nL.py): this is a script that runs AEs and VAEs with different number of dimension  encoder-decoder architectures
+- [AE_VAE_experiment_Dz.py](https://github.com/RegisKonan/ae_vae_understanding/blob/0627aae638a57a1a9a43188e3d7c1fa1a6963978/script/AE_VAE_experiment_Dz.py): this is a script that runs AEs and VAEs with different latent dimensions D_z (fixed number of layers)
+
+### Fixed the value of Dz and varied L
+
+- [AE_VAE_experiment_nL.py](https://github.com/RegisKonan/ae_vae_understanding/blob/0627aae638a57a1a9a43188e3d7c1fa1a6963978/script/AE_VAE_experiment_nL.py): this is a script that runs AEs and VAEs with different numbers of layers L (fixed latent dimension)
 
 
 ######### These codes allow us to be more productive.
