@@ -1,5 +1,20 @@
+# Reports
 
-# Title: Understanding Autoencoders and Variational Autoencoders
+| File | Description |
+|---|---|
+| [`Regis_Djaha_AMMI_project_2023.pdf`](Regis_Djaha_AMMI_project_2023.pdf) | Master's project report (AMMI, 2023), *Understanding Autoencoders and Variational Autoencoders* |
+| [`ML_Palencia_Presentation_new.key`](ML_Palencia_Presentation_new.key) | Presentation slides (Apple Keynote) |
 
-This [work](https://github.com/RegisKonan/ae_vae_understanding/blob/a00e1b481b5d796bc9fea429763acd4923cc4698/reports/Regis_Djaha_AMMI_project_2023.pdf) provides a comprehensive exploration of autoencoders (AEs) and variational autoencoders (VAEs), including beta-VAEs, which are fundamental unsupervised learning methods in artificial intelligence and machine learning. By delving into their theoretical underpinnings, practical implementations, and experimental analyses on benchmark datasets including MNIST, Fashion-MNIST, and FreyFace, the study enhances understanding of these models’ capabilities in
-data representation, dimensionality reduction, image generation, and latent space exploration. Insights into network architectures, the influence of hyperparameters, and the significance of priors contribute to advancing the effective utilization of AEs and VAEs across diverse application domains.
+## Understanding Autoencoders and Variational Autoencoders
+
+**Regis Konan Marcel Djaha**, with Iñigo Urteaga, Basque Center for Applied Mathematics (BCAM)
+
+This report explores **autoencoders (AEs)**, **variational autoencoders (VAEs)** and **β-VAEs**, three fundamental unsupervised learning methods. It covers:
+
+- **Theory:** how AEs learn deterministic latent representations; how VAEs learn a probabilistic latent space by maximising the ELBO; and how β-VAEs reweight the KL term.
+- **Implementation:** encoder–decoder architectures with a variable number of layers and latent dimensions, in PyTorch.
+- **Experiments on MNIST, Fashion-MNIST and FreyFace:** the impact of network depth, latent dimension, prior distribution and β on training losses, reconstructions, latent-space structure and data generation.
+
+These results clarify what AEs and VAEs are good at (data representation, dimensionality reduction, image generation and latent-space exploration) and how to choose their hyperparameters in practice.
+
+*This work was supported by the "la Caixa" Junior Leader programme (award LCF/BQ/PI22/11910028).*
